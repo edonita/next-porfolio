@@ -6,7 +6,7 @@ const Education = () => {
     <section className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-accent">
             Education
           </h2>
         </div>

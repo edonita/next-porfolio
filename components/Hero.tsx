@@ -13,7 +13,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          {/* Profile Image */}
+          
           <div className="flex justify-center mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-primary shadow-glow">
               <Image

@@ -7,7 +7,7 @@ const Contact = () => {
     <section className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-accent">
             Let's Connect
           </h2>
           <p className="text-muted-foreground text-lg">

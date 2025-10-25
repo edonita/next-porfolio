@@ -48,7 +48,7 @@ const Experience = () => {
     <section className="py-20 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-accent">
             Work Experience
           </h2>
           <p className="text-muted-foreground text-lg">
@@ -84,7 +84,7 @@ const Experience = () => {
                   <ul className="space-y-2">
                     {exp.description.map((item, i) => (
                       <li key={i} className="text-muted-foreground flex gap-2">
-                        <span className="text-primary mt-1.5">•</span>
+                        <span className="text-accent">•</span>
                         <span>{item}</span>
                       </li>
                     ))}
